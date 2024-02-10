@@ -45,10 +45,10 @@ THEME_BTN.addEventListener('click', function() {
     document.body.classList.toggle('dark', isDark);
     HEADER.classList.toggle('dark', isDark);
     if (isDark) {
-        FAVICON.href = '/images/fav/icons8-night-32.png';
-        SHORTCUT_ICON.href = '/images/fav/icons8-night-32.png';
+        FAVICON.href = '/img/fav/icons8-night-32.png';
+        SHORTCUT_ICON.href = '/img/fav/icons8-night-32.png';
     } else {
-        FAVICON.href = '/images/fav/icons8-partly-cloudy-day-cute-clipart-32.png';
-        SHORTCUT_ICON.href = '/images/fav/icons8-partly-cloudy-day-cute-clipart-32.png';
+        FAVICON.href = '/img/fav/icons8-partly-cloudy-day-cute-clipart-32.png';
+        SHORTCUT_ICON.href = '/img/fav/icons8-partly-cloudy-day-cute-clipart-32.png';
     }
 })
