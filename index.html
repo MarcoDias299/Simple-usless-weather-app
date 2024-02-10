@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" id="favicon" href="/images/fav/icons8-partly-cloudy-day-cute-clipart-32.png" type="image/x-icon">
+    <link rel="shortcut icon" id="shortcutIcon" href="/images/fav/icons8-partly-cloudy-day-cute-clipart-32.png" type="image/x-icon">
     <title>Useless weather</title>
     <body>
+        <header class="header" id="header">
+            <div class="header__logo" id="headerLogo">Useless Weather App</div>
+            <div class="header__buttons">
+                <button class="btn theme-btn" id="themeBtn">T</button>
+            </div>
+        </header>
         <div class="weather">
             <h1 class="weather__location" id="location">Loading...</h1>
             <div class="weather__temp" id="temperature">Loading...</div>
             <div class="weather__desc" id="description">Loading...</div>
-            <div class="weather__buttons">
-                <button class="weather__button" id="featchWeatherBtn">Get Weather</button>
-                <button class="weather__button" id="resetWeatherBtn">Reset Weather</button>
-            </div>
+            <button class="btn weather__button" id="featchWeatherBtn">Get Weather</button>
         </div>
         <script src="app.js"></script>
 </body>
